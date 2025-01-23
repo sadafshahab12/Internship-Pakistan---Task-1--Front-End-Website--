@@ -9,7 +9,7 @@ const DropDown = ({ dropdowns, show, onSelect, selectedValue }) => {
           : "opacity-0 scale-95 hidden"
       }`}
     >
-      {dropdowns.map((dropdown, index) => (
+      {dropdowns.map((dropdown, index) => ( 
         <div
           key={index}
           className={`p-2 bg-white rounded-md text-sm hover:bg-sky-300 cursor-pointer transition-all ease-in duration-300 ${
