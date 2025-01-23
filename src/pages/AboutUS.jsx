@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const AboutUs = () => {
+   useEffect(() => {
+      document.title = "About us | Internship Pakistan"; // Set the title here
+    }, []);
   return (
     <>
       <div className="py-20 max-w-6xl mx-auto md:px-20 xs:px-10 px-5">

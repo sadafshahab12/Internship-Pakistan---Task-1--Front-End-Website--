@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Input from "../components/ui/Input";
-import CardButton from "../components/ui/CardButton";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaSquarePhone } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 const Contact = () => {
+   useEffect(() => {
+      document.title = "Contact | Internship Pakistan"; // Set the title here
+    }, []);
   const [formData, setFormData] = useState({
     name: "",
     email: "",

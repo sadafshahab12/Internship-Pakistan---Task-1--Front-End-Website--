@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import FilterSection from "../components/FilterSection";
 import InternshipListCard from "../components/InternshipListCard";
 
 const Internships = () => {
-    const [filters, setFilters] = useState({
-      type: "",
-      duration: "",
-      location: "",
-    });
+  useEffect(() => {
+    document.title = "Internships | Internship Pakistan"; // Set the title here
+  }, []);
+  const [filters, setFilters] = useState({
+    type: "",
+    duration: "",
+    location: "",
+  });
   return (
     <div className="pt-24">
       <div className="flex justify-center items-center ">
@@ -21,8 +24,8 @@ const Internships = () => {
         </h1>
       </div>
       <div>
-        <FilterSection onfilterChange={setFilters}/>
-        <InternshipListCard filters={filters}/>
+        <FilterSection onfilterChange={setFilters} />
+        <InternshipListCard filters={filters} />
       </div>
     </div>
   );
