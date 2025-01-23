@@ -12,8 +12,8 @@ const DropDown = ({ dropdowns, show, onSelect, selectedValue }) => {
       {dropdowns.map((dropdown, index) => (
         <div
           key={index}
-          className={`p-2 bg-white rounded-md text-sm hover:bg-sky-300 cursor-pointer transition-all ease-in duration-300 ${
-            selectedValue === dropdown ? "bg-sky-700  text-white" : ""
+          className={`p-2 rounded-md text-sm hover:bg-sky-300 cursor-pointer transition-all ease-in duration-300 ${
+            selectedValue === dropdown ? "bg-sky-700  text-white" : "bg-white text-black"
           }`}
           onClick={() => onSelect(dropdown)}
         >
