@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -26,34 +27,34 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="/" className="hover:underline">
+                <Link to="/" className="hover:underline">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/internships" className="hover:underline">
+                <Link to="/internships" className="hover:underline">
                   Internships
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/aboutus" className="hover:underline">
+                <Link to="/aboutus" className="hover:underline">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:underline">
+                <Link to="/contact" className="hover:underline">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/privacy" className="hover:underline">
+                <Link to="/privacy" className="hover:underline">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/terms" className="hover:underline">
+                <Link to="/terms" className="hover:underline">
                   Terms & Conditions
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
