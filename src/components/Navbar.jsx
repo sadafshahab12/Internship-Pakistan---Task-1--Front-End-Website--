@@ -35,7 +35,7 @@ const Navbar = () => {
             <Link to="/contact">Contact</Link>
           </li>
           <li onClick={closeMenu}>
-            <Link to="">Apply Now</Link>
+            <Link to="/">Apply Now</Link>
           </li>
         </ul>
       </div>
