@@ -13,7 +13,7 @@ const DropDown = ({ dropdowns, show, onSelect, selectedValue }) => {
         <div
           key={index}
           className={`p-2 bg-white rounded-md text-sm hover:bg-sky-300 cursor-pointer transition-all ease-in duration-300 ${
-            selectedValue === dropdown ? "bg-sky-800  text-white" : ""
+            selectedValue === dropdown ? "bg-sky-700  text-white" : ""
           }`}
           onClick={() => onSelect(dropdown)}
         >
