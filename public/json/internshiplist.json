@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Frontend Developer Intern",
+    "company": "TechSphere Solutions",
+    "location": "Peshawar",
+    "duration": "3–6 months",
+    "type": "Remote",
+    "applyButton": true,
+    "image": "https://miro.medium.com/v2/resize:fit:1192/1*jXusXvCfxECPU_Jh9S_E3w.jpeg"
+  },
+  {
+    "title": "Marketing Intern",
+    "company": "GrowthHive",
+    "location": "New York",
+    "duration": "Less than 3 months",
+    "type": "On-site",
+    "applyButton": true,
+    "image": "https://media.istockphoto.com/id/1443560890/photo/digital-marketing-business-technology-concept-website-advertisement-email-social-media.jpg?s=612x612&w=0&k=20&c=S7d_Mof_fEsM69inW540APogoXkz-eA23XE1AIhTaBA="
+  },
+  {
+    "title": "Data Analyst Intern",
+    "company": "Insight Analytics",
+    "location": "San Francisco",
+    "duration": "6+ months",
+    "type": "On-site",
+    "applyButton": true,
+    "image": "https://kaplan.co.uk/images/default-source/insights-posts/magnifying-glass-data.jpg?sfvrsn=215d7f02_1"
+  },
+  {
+    "title": "Graphic Designer Intern",
+    "company": "CreativeSpark",
+    "location": "Remote",
+    "duration": "3 months",
+    "type": "Remote",
+    "applyButton": true,
+    "image": "https://www.rmcad.edu/wp-content/uploads/2024/04/shutterstock_434383288.jpg"
+  },
+  {
+    "title": "Software Engineer Intern",
+    "company": "CodeForce",
+    "location": "Karachi",
+    "duration": "3–6 months",
+    "type": "Hybrid",
+    "applyButton": true,
+    "image": "https://media.istockphoto.com/id/1356364287/photo/close-up-focus-on-persons-hands-typing-on-the-desktop-computer-backlit-keyboard-screens-show.jpg?s=612x612&w=0&k=20&c=ijjq-DLNxIaPuGvIX8k06IZxMAjGpyJeboaV_byCX9k="
+  },
+  {
+    "title": "Product Management Intern",
+    "company": "MarketFlow",
+    "location": "Lahore",
+    "duration": "3 months",
+    "type": "Hybrid",
+    "applyButton": true,
+    "image": "https://zenkit.com/wp-content/uploads/2019/11/Product-Management-Explained.jpg"
+  },
+  {
+    "title": "UI/UX Design Intern",
+    "company": "DesignPro",
+    "location": "Islamabad",
+    "duration": "Less than 3 months",
+    "type": "On-site",
+    "applyButton": true,
+    "image": "https://segwitz.com/wp-content/uploads/2023/09/5757453-scaled-1.jpg"
+  },
+  {
+    "title": "Business Development Intern",
+    "company": "TechVentures",
+    "location": "Rawalpindi",
+    "duration": "6+ months",
+    "type": "On-site",
+    "applyButton": true,
+    "image": "https://www.onlineassignmentshelp.com/blog/wp-content/uploads/2018/01/Business-Development.jpg"
+  }
+]
